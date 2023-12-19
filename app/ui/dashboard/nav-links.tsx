@@ -26,7 +26,7 @@ const links = [
 export default function NavLinks() {
   // #5-2-2. usePathname 훅 사용
   const pathname = usePathname();
-  console.log(pathname); // dashboard, customers, ...
+  // console.log(pathname); // dashboard, customers, ...
   
 
   return (
